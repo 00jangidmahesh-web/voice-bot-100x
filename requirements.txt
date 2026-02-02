@@ -1,0 +1,6 @@
+streamlit
+openai-whisper
+torch
+langchain
+langchain-core
+langchain-groq
