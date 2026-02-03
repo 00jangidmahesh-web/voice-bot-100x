@@ -91,4 +91,5 @@ for msg in st.session_state.chat_history:
 # ---------------- RESET ----------------
 if st.button("🧹 Reset Memory"):
     st.session_state.chat_history = []
-    st.experimental_rerun()
+    st.rerun()          # ← ye new wala
+
